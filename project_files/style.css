@@ -1,0 +1,40 @@
+/*Selector {
+	Property: Value;
+} */
+
+body {
+	background-image: url(jess-bailey-saNXEzVQ27Q-unsplash.jpg);
+	background-size: cover;
+}       
+h2, p {
+	color: red;
+	text-align: center;
+	border: 5px solid purple;
+	cursor: pointer;
+}
+
+p{
+	color: blue;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border: 5px dashed green;
+}
+
+.active:hover{
+	color: red;
+}
+
+
+#div1 {
+	background-color: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+	background-color: rgba(255, 0, 0, 0.2);
+}
